@@ -3,6 +3,7 @@
 EXAMLPE USAGE
 
 Write to a Register on RS485 Slave
+------------------------------------
 
 Since this program act as MODBUS ascii master, all the other devices should be set as slaves.
 
@@ -14,6 +15,10 @@ String writePacket = modbusFrames.generateWritePacket(1, 500, 1234)
 serialPort1.Write(writePacket);
 
 Read a Register/ Block of Registers from RS485 Slave
+----------------------------------------------------
+
+generateReadPacket(int slaveAddress, long registerAddress, long numberOfRegistersToRead)
 
 String readPacket = modbusFrames.generateWritePacket(1, 500, 1234)
 serialPort1.Write(writePacket);
+
