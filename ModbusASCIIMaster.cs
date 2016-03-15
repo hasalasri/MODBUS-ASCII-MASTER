@@ -1,4 +1,4 @@
-public class ModbusASCII
+public class ModbusASCIIMaster
     {
 
         public String generateWritePacket(int slaveAddress, long registerAddress, long value)
