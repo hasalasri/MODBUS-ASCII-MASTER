@@ -1,5 +1,5 @@
 MODBUS_ASCII  C# class for MODBUS_ASCII protocol based on http://www.simplymodbus.ca/ASCII.htm
-To undertstand how MODBUS ASCII work use their tool http://www.simplymodbus.ca/SMM803.zip
+To undertstand how MODBUS ASCII works, use their tool http://www.simplymodbus.ca/SMM803.zip
 EXAMLPE USAGE
 
 Write to a Register on RS485 Slave
